@@ -1,0 +1,23 @@
+[
+  {
+    "nazwa_szczytu":    "Rysy",
+    "łańcuch_górski":   "Karpaty",
+    "pasmo_górskie":    "Tatry",
+    "wysokość":         {
+        "wartość":    2499,
+        "jednostka":  "m n.p.m"
+    }
+  },
+  {
+    "nazwa_szczytu":    "Babia Góra",
+    "łańcuch_górski":   "Karpaty",
+    "pasmo_górskie":    "Beskid Żywiecki",
+    "wysokość":         "1725 m n.p.m"
+  },
+  {
+    "nazwa_szczytu":    "Śnieżka",
+    "łańcuch_górski":   "Sudety",
+    "pasmo_górskie":    "Karkonosze",
+    "wysokość":         "1603 m n.p.m"
+  }
+]
