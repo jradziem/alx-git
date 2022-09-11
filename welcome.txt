@@ -1,2 +1,9 @@
-welcome!
-everyone is welcome to participate in this repo!!!
+Dzień dobry!
+
+Witam na ostatnim dniu kursu Tester w ALX!
+
+
+Pozdrawiam,
+Trener
+
+Ps. Git jest spoko :)
