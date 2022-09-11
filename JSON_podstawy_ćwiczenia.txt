@@ -1,0 +1,86 @@
+Ćwiczenia
+Zapisz za pomocą notacji JSON następujący obiekty:
+1) „Szczyt o nazwie Rysy należy do łańcucha górskiego Karpaty i ma wysokość 2499 metrów”
+2) „Klient ma na imię Jan, na nazwisko Kowalski, urodził się w Sosnowcu dnia 3 maja 1989 roku o godzinie 12:12” (datę zapisz w formacie DD/MM/RRRR HH:MI)”
+
+
+{
+"nazwa_szczytu": "Rysy",
+"łancuch_gorski": "Karpaty",
+"wysokość" : 2499
+}
+{
+"imie": "Jan",
+"nazwisko": "Kowalski",
+"miejsce_urodzenia": "Sosnowiec",
+"data_urodzenia": "03/05/1989 12:12" 
+}
+
+Ćwiczenia
+Zapisz za pomocą notacji JSON następujące listy:
+3) Lista dowolnych 6 wygranych liczb w losowaniu Lotto
+4) Lista 3 ważnych dla Ciebie dat w formacie „DD/MM/RRRR”
+
+
+
+[3,4,6,1,7,9]
+
+
+
+["02/12/1992", "11/09/2002", "21/09/2012"]
+
+Ćwiczenia
+Zapisz za pomocą notacji JSON następujące listy:
+5) Lista 3 najwyższych szczytów z Korony Gór Polski (najwyższe szczyty z wszystkich pasm górskich w Polsce:
+Rysy, wysokość 2499 m., łańcuch górski Karpaty, pasmo Tatry
+Babia Góra, wysokość 1725 m., łańcuch Karpaty, pasmo Beskid Żywiecki
+Śnieżka, wysokość 1603 m., łańcuch Sudety, pasmo Karkonosze
+
+
+
+[
+	{
+		"nazwa_szczytu": "Rysy",
+		"łancuch_górski": "Karpaty",
+		"pasmo_górskie": "Tatry",
+		"wysokość" : 2499
+	},
+	{
+		"nazwa_szczytu": "Babia Góra",
+		"łancuch_górski": "Karpaty",
+		"pasmo_górskie": "Beskid Żywiecki",
+		"wysokość" : 1725
+	},
+	{
+		"nazwa_szczytu": "Śnieżka",
+		"łancuch_górski": "Sudety",
+		"pasmo_górskie": "Karkonosze",
+		"wysokość" : 1603
+	}
+]
+
+Zad 6 
+
+[
+	{
+		"nazwa_szczytu": "Rysy",
+		"łancuch_górski": "Karpaty",
+		"pasmo_górskie": "Tatry",
+		"wysokość" : 2499,
+“Państwa”: [“Polska”, “Słowacja”]
+	},
+	{
+		"nazwa_szczytu": "Babia Góra",
+		"łancuch_górski": "Karpaty",
+		"pasmo_górskie": "Beskid Żywiecki",
+		"wysokość" : 1725,
+“Państwa”: [“Polska”, “Słowacja”]
+	},
+	{
+		"nazwa_szczytu": "Śnieżka",
+		"łancuch_górski": "Sudety",
+		"pasmo_górskie": "Karkonosze",
+		"wysokość" : 1603,
+“Państwa”: [“Polska”, “Czechy”]
+	}
+]
