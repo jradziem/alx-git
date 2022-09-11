@@ -1,0 +1,483 @@
+{
+	"id": "277e59a7-452c-4751-aff3-0a4766f42b73",
+	"name": "Test API JSON",
+	"timestamp": "2022-07-10T13:49:10.496Z",
+	"collection_id": "21884206-255ffb79-16c5-4a32-b946-247f3d003d1f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "4d896cf3-d132-4b37-8619-2fa204a596ad",
+			"name": "Pobieranie wszystkich postów",
+			"url": "http://localhost:3000/posts",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "0e88befe-89aa-465f-9785-8e3ef7acf2cd",
+			"name": "Pobieranie posta o konkretnym ID",
+			"url": "http://localhost:3000/posts/1",
+			"time": 31,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				31
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "a21326b9-0451-4f05-87da-e6a3017a3a52",
+			"name": "Tworzenie nowego posta",
+			"url": "http://localhost:3000/posts",
+			"time": 33,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"szukam statusu 200": false
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": false
+				}
+			]
+		},
+		{
+			"id": "0b3eb7a4-6a2f-49f6-8380-8238a8fad894",
+			"name": "Aktualizacja danych postów metodą ‘PUT’",
+			"url": "http://localhost:3000/posts/2",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "5b477aed-2d67-4a75-8615-c5dc7611ee1d",
+			"name": "Aktualizacja danych postów metodą ‘PATCH’",
+			"url": "http://localhost:3000/posts/2",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "a51e5094-3544-46bd-a330-6ce1b319fb2b",
+			"name": "Usuwanie wybranego posta metodą DELETE",
+			"url": "http://localhost:3000/posts/2",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "161660bb-ccd5-4eb9-acbd-410bd0198a3b",
+			"name": "Dodawanie dwóch postów na raz",
+			"url": "http://localhost:3000/posts",
+			"time": 32,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"szukam statusu 200": false
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": false
+				}
+			]
+		},
+		{
+			"id": "992ad1a5-ea51-40fa-b314-9ac0528eddd6",
+			"name": "Dodawanie dwóch postów bez ID",
+			"url": "http://localhost:3000/posts",
+			"time": 35,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"szukam statusu 200": false
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": false
+				}
+			]
+		},
+		{
+			"id": "5b02723a-69f9-4ac8-8ba7-3f74271a4adc",
+			"name": "Pobieranie posta po ID nr.5",
+			"url": "http://localhost:3000/posts/5",
+			"time": 32,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"szukam statusu 200": false
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": false
+				}
+			]
+		},
+		{
+			"id": "77fc05db-07c1-434e-853b-d24703da79cd",
+			"name": "Pobieranie posta o ID 4",
+			"url": "http://localhost:3000/posts/4",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "deaf04f6-af69-4cd2-bc26-dbc3e005d64d",
+			"name": "Pobieranie posta o ID 3",
+			"url": "http://localhost:3000/posts/3",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "cc2d2685-fdb4-4198-9877-9419e4d2f29a",
+			"name": "Tworzenie posta ID 100",
+			"url": "http://localhost:3000/posts",
+			"time": 37,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"szukam statusu 200": false
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": false
+				}
+			]
+		},
+		{
+			"id": "3210904c-1d26-4a11-9921-e318fe02d81b",
+			"name": "Pobieranie posta o ID 100",
+			"url": "http://localhost:3000/posts/100",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "b653f636-f056-4777-b156-0d55caa319c8",
+			"name": "Filtrowanie po ID i tytule",
+			"url": "http://localhost:3000/posts?id=2&title=Test%202",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		},
+		{
+			"id": "1e6c0dc1-078b-4750-90bb-a41a5a3441dd",
+			"name": "Filtrowanie potytule i autorze",
+			"url": "http://localhost:3000/posts?title=Post%20100&author=Adrian",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"szukam statusu 200": true
+			},
+			"testPassFailCounts": {
+				"szukam statusu 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"szukam statusu 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 498,
+	"collection": {
+		"requests": [
+			{
+				"id": "4d896cf3-d132-4b37-8619-2fa204a596ad",
+				"method": "GET"
+			},
+			{
+				"id": "0e88befe-89aa-465f-9785-8e3ef7acf2cd",
+				"method": "GET"
+			},
+			{
+				"id": "a21326b9-0451-4f05-87da-e6a3017a3a52",
+				"method": "POST"
+			},
+			{
+				"id": "0b3eb7a4-6a2f-49f6-8380-8238a8fad894",
+				"method": "PUT"
+			},
+			{
+				"id": "5b477aed-2d67-4a75-8615-c5dc7611ee1d",
+				"method": "PATCH"
+			},
+			{
+				"id": "a51e5094-3544-46bd-a330-6ce1b319fb2b",
+				"method": "DELETE"
+			},
+			{
+				"id": "161660bb-ccd5-4eb9-acbd-410bd0198a3b",
+				"method": "POST"
+			},
+			{
+				"id": "992ad1a5-ea51-40fa-b314-9ac0528eddd6",
+				"method": "POST"
+			},
+			{
+				"id": "5b02723a-69f9-4ac8-8ba7-3f74271a4adc",
+				"method": "GET"
+			},
+			{
+				"id": "77fc05db-07c1-434e-853b-d24703da79cd",
+				"method": "GET"
+			},
+			{
+				"id": "deaf04f6-af69-4cd2-bc26-dbc3e005d64d",
+				"method": "GET"
+			},
+			{
+				"id": "cc2d2685-fdb4-4198-9877-9419e4d2f29a",
+				"method": "POST"
+			},
+			{
+				"id": "3210904c-1d26-4a11-9921-e318fe02d81b",
+				"method": "GET"
+			},
+			{
+				"id": "b653f636-f056-4777-b156-0d55caa319c8",
+				"method": "GET"
+			},
+			{
+				"id": "1e6c0dc1-078b-4750-90bb-a41a5a3441dd",
+				"method": "GET"
+			}
+		]
+	}
+}
